@@ -44,11 +44,11 @@ function UEffect() {
     <div>
       <h1 className="heading">Stop Watch</h1>
       <div>
-        <h1 className="heading">
+        
           
 
           <h1 className='heading'><span>{hours}</span> : <span>{minute}</span> :<span>{second}</span></h1>
-        </h1>
+       
         <button onClick={start}>Start</button>
         <button onClick={stop}>Stop</button>
         <button onClick={reset}>Reset</button>
