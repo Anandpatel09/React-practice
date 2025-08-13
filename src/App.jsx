@@ -1,5 +1,6 @@
 
 import './App.css'
+import UCallback from './component/UCallback'
 import UEffect from './component/UEffect'
 import UMemo from './component/UMemo'
 import UState from './component/UState'
@@ -11,7 +12,8 @@ function App() {
 {/* <UState/> */}
 {/* <UEffect/> */}
 {/* <Uref/> */}
-<UMemo/>
+{/* <UMemo/> */}
+<UCallback/>
     </>
   )
 }
