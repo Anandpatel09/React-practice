@@ -9,6 +9,7 @@ import UMemo from './component/UMemo'
 import UState from './component/UState'
 import Uref from './component/Uref'
 import UReducer from './component/uReducer'
+import ULayoutEffect from './component/ULayoutEffect'
 
 
 function App() {
@@ -24,7 +25,9 @@ function App() {
 <Footer/>
 <Contact/> */}
 
-<UReducer/>
+{/* <UReducer/> */}
+
+<ULayoutEffect/>
     </>
   )
 }
