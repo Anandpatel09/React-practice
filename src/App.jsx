@@ -8,6 +8,8 @@ import UEffect from './component/UEffect'
 import UMemo from './component/UMemo'
 import UState from './component/UState'
 import Uref from './component/Uref'
+import UReducer from './component/uReducer'
+
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
 {/* <UMemo/> */}
 {/* <UCallback/>/\ */}
 
-<Profile/>
+{/* <Profile/>
 <Footer/>
-<Contact/>
+<Contact/> */}
+
+<UReducer/>
     </>
   )
 }
